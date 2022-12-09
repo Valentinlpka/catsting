@@ -1,0 +1,97 @@
+header{
+    background-color:#FF7F57;
+}
+
+li:active{
+    font-weight: 800;
+}
+
+.orange {
+    color:#FF7F57
+}
+
+.dark {
+    background-color: black;
+}
+
+
+
+
+
+.tables{
+    display:flex;
+    align-items: center;
+    justify-content: start;
+
+    color:white;
+}
+tr{
+    border-bottom:1px solid #FF7F57;
+}
+td {
+    border-bottom : 1px solid #FF7F57;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+
+.over {
+    overflow: scroll;
+}
+
+.anecdote-race {
+    height: 80vh;
+    color:white;
+    background:#343434;
+    border-radius:10px;
+
+
+}
+
+.abcd {
+    background:#343434;
+    color:white;
+    border-bottom: 1px solid #FF7F57;
+}
+
+.abcd:hover {
+    background:#FF7F57
+}
+
+.color {
+    background: #343434;
+    border-radius:10px;
+    padding:15px;
+    height: 40vh;
+}
+
+.bouton {
+    background:#FF7F57;
+    color:black;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    width: 225px;
+}
+
+.colors {
+    width: 800px;
+    height: 290px;
+    background: #343434;
+    border-radius:10px;
+}
+
+.anecdotee{
+    padding: 30px;
+    font-size: 1.5rem;
+}
+
+
+.btn-orange{
+    background:#FF7F57
+}
+
+::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
